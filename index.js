@@ -1,9 +1,6 @@
 const myAPIKey = 'ea5fd99';
 
 //
-
-
-//
 const onMovieSelect = async (movie) => {
     let response = await axios.get('http://omdbapi.com/', {
         params: {
