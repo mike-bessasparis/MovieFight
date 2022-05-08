@@ -1,9 +1,9 @@
 const createAutoComplete = ({ 
-    root, 
-    renderOption, 
-    onOptionSelect, 
-    inputValue,
-    fetchData
+    root, //place to render items menu list
+    renderOption, //how to render this menu item
+    onOptionSelect, //what to do when this menu item is clicked
+    inputValue, //key value for clicked menu item
+    fetchData //how to get menu items
 }) => {
     root.innerHTML = `
         <label><b>Search</b></label>
